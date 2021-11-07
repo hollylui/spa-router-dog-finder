@@ -1,0 +1,47 @@
+// font-family: 'Roboto', sans-serif;
+
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  .dogs {
+    display: flex;
+    justify-content: center;
+
+    .navBarLink {
+      display: flex;
+      flex-direction: column;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 20px;
+
+      &:visited {
+        color: black;
+      }
+
+      &:hover {
+        color: red;
+      }
+
+      .dogImg {
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid black;
+      }
+    }
+  }
+
+  .dogInfo {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
